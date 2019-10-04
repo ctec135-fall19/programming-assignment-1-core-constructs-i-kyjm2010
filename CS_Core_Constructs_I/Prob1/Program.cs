@@ -37,10 +37,16 @@ namespace Prob1
         {
             #region example of a code region
             // some code
+            double i = 20;
+            System.Double d = 9;
+            Console.WriteLine(i);
+            Console.WriteLine(d);
             #endregion
 
             #region another code region
             // some code
+            double a = new double();
+            Console.WriteLine(a);
             #endregion
         }
     }
