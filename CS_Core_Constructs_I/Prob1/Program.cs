@@ -41,12 +41,27 @@ namespace Prob1
             System.Double d = 9;
             Console.WriteLine(i);
             Console.WriteLine(d);
+            double a = new double();
+            Console.WriteLine(a);
             #endregion
 
             #region another code region
             // some code
-            double a = new double();
-            Console.WriteLine(a);
+            byte s = 250;
+            short v = 32_700;
+            int myInt = 30;
+            long g = 9_000_000_000;
+            float t = 5.3F;
+            double k = 300.5;
+            decimal b = 7.98274M;
+            Console.WriteLine("byte: {0} \nshort:{1} \nint:{2} \nlong:{3} \nfloat:{4} \ndouble:{5} \ndecimal:{6}" , s, v, myInt, g, t, k, b);
+            #endregion
+
+            #region yet another code region
+            long[] array1 = {0, 20, 9, 250, 32_700, 30, 9_000_000_000, 5, 300, 8};
+            Console.WriteLine("The maximum value in the array provided is:{0}",array1.Max());
+            Console.WriteLine("The minimum value in the array provided is:{0}",array1.Min());
+
             #endregion
         }
     }
